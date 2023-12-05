@@ -1,0 +1,65 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    width:100vw;
+    height:100vh;
+    background-image:linear-gradient(violet,blue);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+   
+
+}
+#parent{
+
+    width:20vw;
+    height:40vh;
+    background-color: rgb(65, 212, 65);
+    border-radius:30%;
+    animation:logo 1s 2;
+   
+
+}
+@keyframes logo{
+    0%{
+        transform:scale(5);
+    }
+    100%{
+        transform:scale(1);
+    }
+}
+#circle,#square{
+    width:6vw;
+    height:12vh;
+    background-color:black;
+    opacity:0.5;
+    position: relative;
+}
+#square{
+    left:11vw;
+    bottom:16vh;
+    border-radius:30%;
+}
+#circle{
+    left:2.8vw;
+    bottom:24vh;
+    border-radius:100%;
+}
+img{
+    
+    position: relative;
+}
+#cross{
+    
+    width:11vw;
+    height:22vh;
+    top:1.5vh;   
+}
+#equals{
+    width:6vw;
+    height:12vh;
+    left:11vw;
+    bottom:11.5vh;
+}
